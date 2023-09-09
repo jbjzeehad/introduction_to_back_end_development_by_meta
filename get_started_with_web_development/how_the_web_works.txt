@@ -1,0 +1,39 @@
+>> A server is a computer that runs applications and services, ranging from websites to instant messaging. web servers have multiple functions and this is just two of them. They can also handle security and manage emails.web servers have to be able to handle high volumes of web request.
+
+>> A browser is a software application that you use to browse the world.
+
+>> cloud hosting uses a combination of physical and virtual servers.
+
+>> In the client/server model, your device is a client
+
+>> The website address that you type in your web browser to navigate to a website is called a Domain name
+
+>> Servers are typically stored in a building called a Data center. A data center is a building designed to host servers.
+
+>> The physical components of a server are called the Hardware
+
+>> The purpose of a web server is to receive from a web browser and to respond with the correct content for that request. A website can consist of multiple web pagees linked together.
+
+>> the links you click on in your browser are known as Hyperlinks. references to other HTML documents.The cloud allows you to run your website across multiple virtual and physical servers.
+
+>> What is web server ??
+
+A web server stores and delivers the content for a website – such as text, images, video, and application data – to clients that request it. The most common type of client is a web browser program, which requests data from your website when a user clicks on a link or downloads a document on a page displayed in the browser.
+
+A web server communicates with a web browser using the Hypertext Transfer Protocol (HTTP). The content of most web pages is encoded in Hypertext Markup Language (HTML). The content can be static (for example, text and images) or dynamic (for example, a computed price or the list of items a customer has marked for purchase). To deliver dynamic content, most web servers support server‑side scripting languages to encode business logic into the communication. Commonly supported languages include Active Server Pages (ASP), Javascript, PHP, Python, and Ruby.
+
+A web server might also cache content to speed delivery of commonly requested content. This process is also known as web acceleration.
+
+A web server can host a single website or multiple websites using the same software and hardware resources, which is known as virtual hosting. Web servers can also limit the speed of response to different clients so as to prevent a single client from dominating resources that are better used to satisfy requests from a large number of clients.
+
+While web servers typically host websites that are accessible on the Internet, they can also be used to communicate between web clients and servers in local area networks such as a company’s intranet. A web server can even be embedded in a device such a digital camera so that the users can communicate with the device via any commonly available Web browser.
+
+>> what is a web browser?
+
+A web browser takes you anywhere on the internet, letting you see text, images and video from anywhere in the world.
+
+The web is a vast and powerful tool. Over the course of a few decades, the internet has changed the way we work, the way we play and the way we interact with one another. Depending on how it’s used, it bridges nations, drives commerce, nurtures relationships, drives the innovation engine of the future and is responsible for more memes than we know what to do with.
+
+It’s important that everyone has access to the web, but it’s also vital that we all understand the tools we use to access it. We use web browsers like Mozilla Firefox, Google Chrome, Microsoft Edge and Apple Safari every day, but do we understand what they are and how they work? In a short period of time we’ve gone from being amazed by the ability to send an email to someone around the world, to a change in how we think of information. It’s not a question of how much you know anymore, but simply a question of what browser or app can get you to that information fastest.
+
+Browser Engine : A browser engine (also known as a layout engine or rendering engine) is a core software component of every major web browser. The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.

@@ -47,3 +47,48 @@ Module 03: UI frameworks
     - describe the basic of React in relation to other frameworks and web tech
 
 After we complete the individual units in this module we will synthesize the skills from the course to create and style a biographical page. we will also have the opportunity to reflect on the course content and the learning path that lies ahead.
+
+
+# How to be successful in this course:
+
+Taking an online course can be overwhelming. How do you learn at your own pace and successfully achieve your goals? 
+
+Here are some general tips that can help you stay focused and on track.
+
+>> Set daily goals for studying 
+Ask yourself what you hope to accomplish in your course each day. Setting a clear goal can help you stay motivated and beat procrastination. The goal should be specific and easy to measure, such as "I’ll watch all the videos in Module 2 and complete the first programming assignment". And don’t forget to reward yourself when you make progress towards your goal! 
+
+>> Create a dedicated study space 
+It’s easier to recall information if you’re in the same place where you first learned it, so having a dedicated space at home to take online courses can make your learning more effective. Remove any distractions from the space and if possible, make it separate from your bed or sofa. A clear distinction between where you study and where you take breaks can help you focus.  
+
+>> Schedule time to study on your calendar 
+Open your calendar and choose a predictable, reliable time that you can dedicate to watching lectures and completing assignments. This helps ensure that your courses won’t become the last thing on your to-do list. 
+
+>> Keep yourself accountable 
+Tell your friends about the courses you’re taking, post achievements to your social media accounts or blog about your homework assignments. Having a community and support network of friends and family to cheer you on makes a difference!
+
+>> Actively take notes 
+Taking notes can promote active thinking, boost comprehension and extend your attention span. It’s a good strategy to internalize knowledge whether you’re learning online or in the classroom. So, grab a notebook or find a digital app that works best for you and start synthesizing key points. 
+
+>> Do one thing at a time 
+Multitasking is less productive than focusing on a single task at a time. Researchers from Stanford University found that “People who are regularly bombarded with several streams of electronic information cannot pay attention, recall information or switch from one job to another as well as those who complete one task at a time.” Stay focused on one thing at a time. You’ll absorb more information and complete assignments with greater productivity and ease than if you were trying to do many things at once.
+
+>> Take breaks 
+Resting your brain after learning is critical to high performance. If you find yourself working on a challenging problem without much progress for an hour, take a break. Walking outside, taking a shower or talking with a friend can help you to re-energize and even give you new ideas on how to tackle the project. 
+
+Capstone project overview
+You’ve just begun your coding journey on the Meta back-end developer program. By the end of this program, you'll put your new skills to work by completing a real-world portfolio project, where you'll create your own dynamic web application. Completing this project will help you to validate the knowledge and skills that you have gained.
+
+# What you will be able to develop
+
+You will build this web app yourself in React and use all of the excellent tools available. Putting your newly acquired skills into practice, you will demonstrate how to build and program part of a responsive web app. 
+
+It includes the following elements:
+
+- A home screen with information about the restaurant.
+
+- A table reservation system.
+
+- A profile screen for users to enter their personal details.
+
+- Navigation that enables users to move between parts of the web app.
