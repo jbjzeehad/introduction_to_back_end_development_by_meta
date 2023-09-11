@@ -3,7 +3,7 @@
 >> TCP is used for data that must arrive correctly and in order. This is bcz  TCP can deal with data packets arriving out of order , becoming damaged or corrupted , or dropped or lost albeit at the cost of a small delay.
 
 >> HTTP : 
-ebery http request begins with the request line. this consider of the HTTP methos, the requested resource and the HTTP protocol version.
+every http request begins with the request line. this consider of the HTTP methos, the requested resource and the HTTP protocol version.
 
 GET/home.html HTTP/1.1
 
@@ -226,3 +226,14 @@ All data sent over SSH is encrypted. This means that third parties cannot unders
 - SSH File Transfer Protocol (SFTP):
 
 The data is transmitted insecurely when using the File Transfer Protocol. This means that third parties may understand the data that you are sending. This is not right if you transmit company files such as software and databases. To solve this, the SSH File Transfer Protocol, alternatively called the Secure File Transfer Protocol, can be used to transfer files over the SSH protocol. This ensures that the data is transmitted securely. Most FTP clients also support the SFTP protocol.
+
+>> Some quiz Question :
+
+1. when sending a message to another computer, the source and destination are specfied using an IP address.
+2. 192.0.2.235 this is an IP address for protocol version 4
+3. 4527:0db8:0a00:1567:0200:ff00:0042:8329 this is an IP address for protocol version 6.
+4. TCP ensures dta arrives without data loss and in order.
+5. HTML uses markup tags to decribe the structure and content of a web page
+6. when we type a website address in our web browser DNS protocol is used to find the IP addresss of the website. The DNS protocolwill return the IP address for a domain name.
+7. A web application is more Interactive compared to a website.
+
