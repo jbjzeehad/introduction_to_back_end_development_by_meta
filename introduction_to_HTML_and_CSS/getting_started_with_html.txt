@@ -1,0 +1,12 @@
+tags: opening tag, closing tag
+content :
+elements : 
+self closing elements : <br>
+server : 
+webpage :
+
+html : is a text file with a specific structure
+
+html documents : A text document containing simple webpage formatting.
+
+the structure of an HTML document starts with <!DOCTYPE html>. the first elements in an HTML document is the DOCTYPE declaration which notifies the web beowaser that it is an HTML document.

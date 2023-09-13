@@ -237,3 +237,14 @@ The data is transmitted insecurely when using the File Transfer Protocol. This m
 6. when we type a website address in our web browser DNS protocol is used to find the IP addresss of the website. The DNS protocolwill return the IP address for a domain name.
 7. A web application is more Interactive compared to a website.
 
+>> To reduce development time, developers use libraries in their application development. What’s the main feature of a library?  - Reusable pieces of code
+
+>> API - A service,application, or interface offering advanced functionality with simple syntax
+
+>> REST - A set of principles used to build highly efficient APIs
+
+>> IDE - An integrated development environment, or IDE, is software for building applications. This kind of software application has many different features to help you as a developer.
+-To improve readability for developers, IDEs have syntax highlighting.Special keywords of the programming language are highlighted in different colors to make the code easier to read.
+-IDEs have a feature called Error Highlighting.Just like checking spelling in a text document, IDEs can highlight mistakes you make in your code.
+-IDEs have a feature that can detect variables and functions and offer them as suggestions during autocomplete.This feature is called IntelliSense.
+-Refactoring changes the structure of the code, but it doesn't change the functionality.
