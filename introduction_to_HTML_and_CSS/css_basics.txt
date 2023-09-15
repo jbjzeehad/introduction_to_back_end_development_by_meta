@@ -1,0 +1,198 @@
+
+selector:
+declaration Block >> Everything between the curly brackets is called the declaration  block.
+    property: color,background 
+    value: red, grey
+
+
+>> Element Selectors:
+The element selector allows developers to select HTML elements based on their element type.
+
+<p>Once upon a time...</p>
+<p>In a hidden land...</p>
+
+p { 
+  color: blue; 
+}
+
+>> ID Selectors:
+The ID selector uses the id attribute of an HTML element. ID selectors are prefixed with a # character.
+
+<span id="latest">New!</span>
+
+#latest { 
+  background-color: purple; 
+}
+
+>> Class Selectors:
+Elements can also be selected based on the class attribute applied to them. The CSS rule has been applied to all elements with the specified class name. The class selector is prefixed with a . character.
+
+<a class="navigation">Go Back</a>
+<p class="navigation">Go Forward</p>
+
+.navigation { 
+  margin: 2px;
+}
+
+>> Element with Class Selector:
+A more specific method for selecting HTML elements is by first selecting the HTML element, then selecting the CSS class or ID.
+
+<p class="introduction"></a>
+
+p.introduction { 
+  margin: 2px;
+}
+
+>> Descendant Selectors:
+Descendant selectors are useful if you need to select HTML elements that are contained within another selector.
+
+<div id="blog">
+  <h1>Latest News</h1>
+  <div>
+    <h1>Today's Weather</h1>
+    <p>The weather will be sunny</p>
+  </div>
+  <p>Subscribe for more news</p>
+</div>
+<div>
+  <h1>Archives</h1>
+</div>
+
+#blog h1 {
+  color: blue;
+}
+
+The CSS rule will select all h1 elements that are contained within the element with the ID blog. The CSS rule will not apply to the h1 element containing the text Archives.
+
+The structure of a descendant selector is a CSS selector, followed by a single space character, followed by another CSS selector.
+
+Multiple descendants can also be selected. For example, to select all h1 elements that are descendants of div elements which are descendants of the blog element, the selector is specified as follows.
+
+#blog div h1 {
+  color: blue;
+}
+
+>> Child Selectors: Child selectors are more specific than descendant selectors. They only select elements that are immediate descendants (children) of a selector (the parent).
+
+<div id="blog">
+  <h1>Latest News</h1>
+  <div>
+    <h1>Today's Weather</h1>
+    <p>The weather will be sunny</p>
+  </div>
+  <p>Subscribe for more news</p>
+</div>
+
+If you wanted to style the h1 element containing the text Latest News, you can use the following child selector:
+
+#blog > h1 {
+  color: blue;
+}
+
+This will select the element with the ID blog (the parent), then it will select all h1 elements that are contained directly in that element (the children). The structure of the child selector is a CSS selector followed by the child combinator symbol > followed by another CSS selector.
+
+>> :hover Pseudo-Class
+
+A special keyword called a pseudo-class allows developers to select elements based on their state. Don't worry too much about what that means right now. For now, let's look at how the hover pseudo-class allows you to style an element when the mouse cursor hovers over the element.
+
+a:hover {
+  color: orange;
+}
+
+This pseudo-class is very useful for creating visual effects based on user interaction.
+
+>> Text and color in CSS:
+
+Colors are used in many CSS properties
+
+p { 
+  color: blue; 
+}
+
+there are five main ways to reference a color.
+
+RGB value: RGB is a color model that adds the colors red (R), green (G) and blue (B) together to create colors. This is based on how the human eye sees colors.
+
+Each value is defined as a number between 0 and 255, representing the intensity of that color.
+
+p { 
+  color: rgb(255, 0, 0); 
+}
+
+RGBA value: RGBA is an extension of RGB that add an alpha (A) channel. The alpha channel represents the opacity, or transparency, of the color.
+
+p { 
+  color: rgba(255, 0, 0, 128); 
+}
+
+HSL value: HSL is a newer color model defined as Hue (H), Saturation (S) and Lightness (L). The aim of the model is to simplify mental visualization of the color that the value represents.
+The Hue value is the degree value on this circle, from 0 degrees to 360 degrees. 0 is red, 120 is green and 240 is blue.
+Saturation is the distance from the center of the circle to its edge. The saturation value is represented by a percentage from 0% to 100% where 0% is the center of the circle and 100% is its edge
+Lightness is the third element of this color model. Think of it as turning the circle into a 3D cylinder where the bottom of the cylinder is more black and toward the top is more white.
+Therefore, lightness is the distance from the bottom of the cylinder to the top. Again, lightness is represented by a percentage from 0% to 100% where 0% is the bottom of the cylinder and 100% is its top. In other words, 0% will mean that the color is more black and 100% is white.
+
+p { 
+  color: hsl(0, 100%, 50%);
+}
+
+Hex value: Colors can be specified using a hexadecimal value.Colors specified using hexadecimal are prefixed with a # symbol followed by the RGB value in hexadecimal format.
+
+>> Predefined color names:
+Modern web browsers support 140 predefined color names.
+Some common color names available are listed below.
+black green lime olive
+yellow navy blue teal
+aqua silver gray white
+maroon red purple fuchsia
+
+>> Text: With CSS there are many ways to change how text is displayed.
+The color property sets the color of text
+
+p { 
+  color: red;
+}
+
+There are many different fonts to display text on your computer. In simple terms, a font is a collection of text characters written in a specific style and size.
+
+p { 
+  font-family: "Courier New", monospace;
+}
+
+it is recommended to include several fonts when using the font-family property. These are specified in a fallback order, meaning that if the first font is not available, it will check for the second font. If the second font is not available, then it will check for the third font and so on. If none of the fonts are available, it will use the browser's default font.
+
+p { 
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+}
+
+>> Text Transformation: Text transformation is useful if you want to ensure the correct capitalization of the text content.
+
+p { 
+  text-transform: uppercase;
+}
+
+The most commonly used values for the text-transform property are:  uppercase,  lowercase,  capitalize  and none. The default value used is none, which means the text displays as it was written in the HTML document.
+
+>> Text Decoration: The text-decoration property is useful to apply additional decoration to text such as underlining and line-through (strikethrough).
+
+p { 
+  text-decoration: underline;
+}
+
+It is possible to set the color, thickness and styling of the decoration too
+
+p { 
+  text-decoration: underline red solid 5px;
+}
+
+These properties can be individually set using the text-decoration-line, text-decoration-color, text-decoration-style and text-decoration-thickness properties
+
+p { 
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
+}
+
+The most common text-decoration-line values used are: underline, overline, line-through and none. None is the default value to use no text decoration
+There are many styles available for the text-decoration-style  property;  solid,  double,  dotted,  dashed  and  wavy. The text-decoration-style property requires the decoration line to be defined. If the decoration style is not specified, solid will be used.
