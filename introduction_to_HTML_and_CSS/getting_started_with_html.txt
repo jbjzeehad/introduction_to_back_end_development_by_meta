@@ -130,3 +130,6 @@ Using HTML elements appropriately such as using paragraph tags for text and butt
 the structure of an HTML document starts with <!DOCTYPE html>. the first elements in an HTML document is the DOCTYPE declaration which notifies the web beowaser that it is an HTML document.
 
 Anchor tags- create an hyperlinks to link pages together.
+
+>> Block Level elements: div,form,h1-h6
+>> Inline elements: a,img,input,label,b,i,em,span
