@@ -196,3 +196,61 @@ p {
 
 The most common text-decoration-line values used are: underline, overline, line-through and none. None is the default value to use no text decoration
 There are many styles available for the text-decoration-style  property;  solid,  double,  dotted,  dashed  and  wavy. The text-decoration-style property requires the decoration line to be defined. If the decoration style is not specified, solid will be used.
+
+>> Alignment basics : 
+
+a. Text Alignment - Aligning text within an HTML element is very simple.Text alignment can be set to left, right, center and justify.
+
+p {
+    text-align: center;
+}
+
+The justify alignment spreads the text out so that every line of the text has the same width.The default alignment is left for languages that are left-to-right such as English
+
+b. HTML Element Alignment - HTML element alignment is more complicated than text alignment.Aligning an HTML element is done by changing the properties of its box model and how it impacts the document flow.
+
+c.HTML Element Center Alignment - To center align an element, you set a width on the element and push its margins out to fill the remaining available space of the parent element as in the following HTML structure:
+
+<div class="parent">
+  <div class="child">
+  </div>
+</div>
+
+.parent {
+  border: 4px solid red;
+}
+
+.child {
+  width: 50%;
+  padding: 20px;
+  border: 4px solid green;
+}
+
+To align the element to the center, set its margin property to auto. The auto will tell the browser to calculate the margin automatically based on the space available.
+
+.child {
+  width: 50%;
+  padding: 20px;
+  border: 4px solid green;
+  margin: auto;
+}
+
+d. HTML Element Left / Right Alignment - The two most common ways to left and right align elements are to use the float property and the position property.
+
+The position property has several value options that impact how the element displays in the document flow. You'll explore how to use the position property later on. For now, let's focus on the float property.
+
+The float property sets an element's position relative to the text content within a parent element. Text will wrap around the element.
+
+<div class="parent">
+  <img src="photo.png" class="child"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu odio eget leo auctor porta sit amet sit amet justo. Donec fermentum quam in diam volutpat, at lacinia diam placerat. Aenean quis feugiat sem. Suspendisse a dui massa. Phasellus scelerisque, mi vestibulum iaculis tristique, orci tellus gravida nisi, in pellentesque elit massa ut lorem. Sed elementum ornare nunc vel cursus. Duis sed enim in nulla efficitur convallis sed eget dolor. Curabitur scelerisque eros erat, in vulputate dolor consequat vel. Praesent ac sapien condimentum, ultricies libero at, auctor orci. Curabitur ut augue ac massa convallis faucibus sed in magna. Phasellus scelerisque auctor est a auctor. Nam laoreet sem sapien, porta imperdiet urna laoreet eu. Morbi dolor turpis, congue id bibendum eget, viverra et risus. Quisque vitae erat id tortor ullamcorper maximus.
+</div>
+
+.child {
+  float: right;
+}
+
+>> Question Answer : To reference a CSS fie in an HTML document we use the link tag.
+the link tag is used to reference a CSS file.
+The display property and block value are used to change the HTML element to a block-level element.
+The text-align property and center value change the text to center alignment.
+when an HTML form is submitted to a web server GET and POST HTTP methods can be used.
