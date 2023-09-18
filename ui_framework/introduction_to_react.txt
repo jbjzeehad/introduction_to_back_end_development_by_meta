@@ -1,0 +1,7 @@
+Question Answer:
+Bundling and lazy loading are SPA approaches to serving code. Bindling will return all resources immediately and lazy loading returns only hte minimum required resources.
+
+
+
+>> The application server generates the dynamic content that the web server sends back to the user’s browser. 
+React Component: A small piece of a user interface.React allows developers to write less code to implement functionality in a web browser, it helps them maintain code in the long term and simplifies testing, and it also allows developers to re-use components when building their applications.
